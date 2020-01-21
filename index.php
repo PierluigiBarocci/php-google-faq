@@ -106,8 +106,13 @@ $array = [
                 </div>
                 <div class="footer-right">
                     <i class="fas fa-flag"></i>
-                    <select name="">
+                    <select id="barra" name="">
                         <option value="">Français</option>
+                        <option value="">English</option>
+                        <option value="">Italiano</option>
+                        <option value="">Español</option>
+                        <option value="">Portugais</option>
+                        <option value="">Deutch</option>
                     </select>
                 </div>
             </div>

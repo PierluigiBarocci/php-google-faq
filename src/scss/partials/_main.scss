@@ -3,10 +3,16 @@
 main {
     color: $p_color;
     padding: 100px 0 50px;
+    .quest-answ {
+        margin-top: 80px;
 
+        &:nth-child(1) {
+            margin-top: 100px;
+        }
+    }
     p {
-        margin: 25px 0;
-
+        margin-top: 20px;
+        line-height: 24px;
         span {
             color: $secondary_color;
             cursor: pointer;
