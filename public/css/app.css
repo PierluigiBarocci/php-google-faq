@@ -22,13 +22,21 @@ h2 {
   color: #3c4043;
 }
 
+.container {
+  width: 65%;
+  margin: 0 auto;
+}
+
 /* Styling Header */
 
 header {
   height: 100px;
+  border-bottom: 1px solid rgba(151, 151, 151, 0.5);
+}
+
+header .header {
   width: 95%;
   margin: 0 auto;
-  border-bottom: 1px solid rgba(151, 151, 151, 0.5);
 }
 
 header .header.top {
@@ -83,7 +91,17 @@ header .header.bottom .right {
 /* Styling Main */
 
 main {
-  background-color: blue;
+  color: rgba(0, 0, 0, 0.87);
+  padding: 100px 0 50px;
+}
+
+main p {
+  margin: 25px 0;
+}
+
+main p span {
+  color: #2962ff;
+  cursor: pointer;
 }
 
 /* Styling Footer */
