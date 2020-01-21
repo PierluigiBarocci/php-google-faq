@@ -81,7 +81,7 @@ $array = [
         <main>
             <?php foreach ($array as $key => $value) {?>
                 <div class="quest-answ container">
-                    <h3 class="question"><?php echo $key; ?></h3>
+                    <h2 class="question"><?php echo $key; ?></h2>
                     <div class="answer"><?php echo $value; ?></div>
                 </div>
             <?php } ?>

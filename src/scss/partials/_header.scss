@@ -1,5 +1,50 @@
 /* Styling Header */
 
 header {
-    background-color: yellow;
+    height: 100px;
+    width: 95%;
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(151, 151, 151, 0.5);
+    .header {
+        &.top {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            font-size: 22px;
+            height: 80%;
+            a > img{
+                margin-right: 10px;
+                padding-top: 8px;
+            }
+        }
+
+        &.bottom {
+            height: 20%;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            .left {
+                width: 80%;
+
+                li {
+                    margin-right: 25px;
+                    padding-bottom: 5px;
+
+                    &:nth-child(5) {
+                        border-bottom: 2px solid $visited_color;
+
+                        a {
+                            color: $visited_color;
+                        }
+                    }
+                }
+            }
+
+            .right {
+                width: 20%;
+                text-align: right;
+                padding-bottom: 5px;
+            }
+        }
+    }
 }
